@@ -1,16 +1,16 @@
-#container {
+/* #container {
     display: grid;
     grid-template-columns: repeat(16, 30px);
     grid-template-rows: repeat(16, 30px);
     border: 1px solid black;
     width: min-content;
-}
+} */
 
-.gridContent {
+/* .gridContent {
     border: 1px solid black;
     background-color: blanchedalmond;
-}
+} */
 
-.gridContent:hover {
+/* .gridContent:hover {
     background-color: coral;
-}
+} */
