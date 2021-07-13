@@ -9,8 +9,6 @@ const gridContent = document.querySelectorAll('.gridContent');
 // Changes grid to user's input
 function changeGrid() {
     let gridLayout = prompt("Enter new size (1-100)");
-
-    // let removeElements = (elms) => elms.forEach(el => el.parentNode.removeChild(el));
     
     if (gridLayout >= 1 && gridLayout <= 100) {
         removeElements(gridContent);
